@@ -5,7 +5,8 @@ public class Person {
     private String surname;
     private String password;
     private static int id;
-xxxxxxxxxxxxxx
+    private int number;
+
     public Person(String name, String surname, String password) {
         id++;
         this.name = name;
